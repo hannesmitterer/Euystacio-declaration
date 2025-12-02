@@ -1,0 +1,197 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.8;
+    color: #2c3e50;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 4px solid #c9a227;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+header .tagline {
+    font-size: 1.1rem;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #2c5282 0%, #3182ce 100%);
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.declaration-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #c9a227;
+}
+
+.declaration-subtitle {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+/* Preamble Section */
+.preamble {
+    background-color: #ffffff;
+    padding: 50px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.preamble h3 {
+    font-size: 1.8rem;
+    color: #1a365d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.preamble p {
+    font-size: 1.1rem;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Articles Section */
+.articles {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.articles h3 {
+    font-size: 1.8rem;
+    color: #1a365d;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.article {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid #c9a227;
+}
+
+.article h4 {
+    font-size: 1.3rem;
+    color: #2c5282;
+    margin-bottom: 15px;
+}
+
+.article p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Commitment Section */
+.commitment {
+    background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.commitment h3 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    color: #c9a227;
+}
+
+.commitment p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 20px;
+}
+
+.commitment .signature {
+    font-style: italic;
+    margin-top: 30px;
+    opacity: 0.9;
+}
+
+/* Footer */
+footer {
+    background-color: #1a202c;
+    color: #a0aec0;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+footer p:last-child {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .declaration-title {
+        font-size: 1.6rem;
+    }
+
+    .article {
+        padding: 20px;
+    }
+
+    .article h4 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .declaration-title {
+        font-size: 1.3rem;
+    }
+
+    .preamble h3,
+    .articles h3,
+    .commitment h3 {
+        font-size: 1.4rem;
+    }
+}
