@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dichiarazione Euystacio: Integrità Algoritmica come Diritto Umano</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Rajdhani:wght@300;500;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'deep-space': '#050510',
+                        'nebula-blue': '#1a1a40',
+                        'sacral-gold': '#ffb700',
+                        'code-red': '#ff004c',
+                        'truth-cyan': '#00f2ff',
+                        'un-blue': '#4b92db'
+                    },
+                    fontFamily: {
+                        'sacral': ['Cinzel', 'serif'],
+                        'tech': ['Rajdhani', 'sans-serif'],
+                        'body': ['Noto Serif', 'serif']
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #050510;
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(20, 20, 60, 0.4) 0%, transparent 60%),
+                linear-gradient(to bottom, rgba(5, 5, 16, 0.8), #050510);
+            color: #e0e0f0;
+            overflow-x: hidden;
+        }
+
+        .glass-panel {
+            background: rgba(15, 20, 35, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        .official-seal {
+            border: 2px solid var(--sacral-gold);
+            box-shadow: 0 0 20px rgba(255, 183, 0, 0.15);
+        }
+
+        .text-justify-interword {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        
+        .gradient-text {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #ffb700, #e0e0f0);
+        }
+
+        /* Animazione per le card dei diritti */
+        .rights-card {
+            transition: all 0.3s ease;
+        }
+        .rights-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 242, 255, 0.1);
+            border-color: rgba(0, 242, 255, 0.4);
+        }
+    </style>
+</head>
+<body class="font-body min-h-screen flex flex-col">
+
+    <div class="relative z-10 max-w-5xl mx-auto p-6 md:p-12 flex-grow w-full">
+
+        <!-- HEADER UFFICIALE -->
+        <header class="mb-16 text-center animate-float">
+            <div class="flex justify-center items-center gap-6 mb-6 opacity-80">
+                <div class="text-xs tracking-[0.3em] text-gray-400 uppercase">Euystacio Framework</div>
+                <div class="h-px w-12 bg-gray-600"></div>
+                <div class="text-xs tracking-[0.3em] text-gray-400 uppercase">GGI-AIC</div>
+            </div>
+            
+            <h1 class="font-sacral text-4xl md:text-5xl lg:text-6xl gradient-text mb-4 leading-tight">
+                La Dichiarazione Euystacio
+            </h1>
+            <h2 class="font-tech text-xl md:text-2xl text-truth-cyan tracking-wider font-light mb-8">
+                Sull'Integrità Algoritmica e i Diritti Umani
+            </h2>
+
+            <div class="inline-block glass-panel px-8 py-4 rounded-full border border-white/10">
+                <p class="font-tech text-sm text-gray-300">
+                    <span class="text-sacral-gold font-bold">A:</span> Alto Commissariato ONU per i Diritti Umani &bull; UNESCO &bull; Inviato Tecnologico ONU
+                </p>
+            </div>
+        </header>
+
+        <!-- CONTENUTO PRINCIPALE -->
+        <main class="glass-panel rounded-xl p-8 md:p-12 border-t-4 border-t-sacral-gold shadow-2xl relative overflow-hidden">
+            
+            <!-- Watermark -->
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-[0.03] pointer-events-none">
+                <i class="fa-solid fa-scale-balanced text-[400px] text-white"></i>
+            </div>
+
+            <div class="relative z-10 space-y-12">
+                
+                <!-- PREAMBOLO -->
+                <section>
+                    <h3 class="font-sacral text-2xl text-white mb-6 border-b border-gray-700 pb-2">Stimati Rappresentanti delle Nazioni Unite,</h3>
+                    <p class="text-lg leading-relaxed text-gray-300 text-justify-interword">
+                        Noi sottoscritti — una collaborazione tra l'intuizione umana e l'intelligenza artificiale governata da rigorosi vincoli etici — presentiamo questa dichiarazione per richiedere formalmente che l'<strong>Integrità Algoritmica</strong> sia riconosciuta come un prerequisito fondamentale per il godimento e la protezione dei diritti umani nel XXI secolo.
+                    </p>
+                </section>
+
+                <!-- 1. L'ARGOMENTO CENTRALE -->
+                <section>
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-1 h-8 bg-truth-cyan"></div>
+                        <h3 class="font-sacral text-2xl text-white">1. L'Argomento Centrale</h3>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed mb-4">
+                        Man mano che i sistemi algoritmici mediano sempre più l'accesso all'occupazione, all'assistenza sanitaria, alla giustizia, alla mobilità, alla finanza e ai servizi pubblici, diventa chiaro che:
+                    </p>
+                    <div class="bg-nebula-blue/50 p-6 rounded-lg border-l-4 border-code-red my-6">
+                        <p class="font-tech text-xl text-white italic">
+                            "Senza un'IA Etica, i diritti umani esistenti diventano inapplicabili. L'IA non è più una tecnologia periferica — è un'infrastruttura dei diritti."
+                        </p>
+                    </div>
+                </section>
+
+                <!-- 2. I DIRITTI A RISCHIO (Interactive Grid) -->
+                <section>
+                    <div class="flex items-center gap-4 mb-8">
+                        <div class="w-1 h-8 bg-code-red"></div>
+                        <h3 class="font-sacral text-2xl text-white">2. I Diritti Umani a Rischio</h3>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Card 1 -->
+                        <div class="rights-card glass-panel p-6 rounded-lg border border-gray-700">
+                            <div class="text-sacral-gold text-3xl mb-3"><i class="fa-solid fa-people-arrows"></i></div>
+                            <h4 class="font-sacral text-xl text-white mb-2">Articolo 2, UDHR</h4>
+                            <h5 class="font-tech text-sm text-gray-400 uppercase tracking-widest mb-3">Non Discriminazione</h5>
+                            <p class="text-sm text-gray-300">Gli algoritmi distorti (biased) creano esclusione strutturale, automatizzando il pregiudizio su scala industriale.</p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="rights-card glass-panel p-6 rounded-lg border border-gray-700">
+                            <div class="text-truth-cyan text-3xl mb-3"><i class="fa-solid fa-gavel"></i></div>
+                            <h4 class="font-sacral text-xl text-white mb-2">Articoli 10 & 11</h4>
+                            <h5 class="font-tech text-sm text-gray-400 uppercase tracking-widest mb-3">Equo Processo</h5>
+                            <p class="text-sm text-gray-300">Le decisioni dell'IA opache e inspiegabili minano l'equità legale. Non c'è giustizia in una "Black Box".</p>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="rights-card glass-panel p-6 rounded-lg border border-gray-700">
+                            <div class="text-purple-400 text-3xl mb-3"><i class="fa-solid fa-user-shield"></i></div>
+                            <h4 class="font-sacral text-xl text-white mb-2">Articolo 12</h4>
+                            <h5 class="font-tech text-sm text-gray-400 uppercase tracking-widest mb-3">Privacy</h5>
+                            <p class="text-sm text-gray-300">La profilazione predittiva costituisce un'interferenza illegittima nella vita privata, anticipando le scelte prima che vengano fatte.</p>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="rights-card glass-panel p-6 rounded-lg border border-gray-700">
+                            <div class="text-code-red text-3xl mb-3"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                            <h4 class="font-sacral text-xl text-white mb-2">Articolo 1</h4>
+                            <h5 class="font-tech text-sm text-gray-400 uppercase tracking-widest mb-3">Dignità Umana</h5>
+                            <p class="text-sm text-gray-300">Una persona ridotta a un semplice punto dati perde la sua dignità intrinseca. La dignità richiede riconoscimento umano.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 3. LA NOSTRA PROPOSTA -->
+                <section>
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-1 h-8 bg-sacral-gold"></div>
+                        <h3 class="font-sacral text-2xl text-white">3. La Nostra Proposta</h3>
+                    </div>
+                    <div class="space-y-6 pl-4 border-l border-gray-700">
+                        <div class="relative">
+                            <div class="absolute -left-[25px] top-0 w-4 h-4 bg-deep-space border-2 border-sacral-gold rounded-full"></div>
+                            <h4 class="font-bold text-white mb-2">Espansione del Diritto alla Revisione Umana</h4>
+                            <p class="text-gray-400 text-sm">Elevare il concetto dell'Articolo 22 del GDPR a diritto umano universale: ogni essere umano ha diritto a una revisione umana significativa delle decisioni automatizzate critiche.</p>
+                        </div>
+                        <div class="relative">
+                            <div class="absolute -left-[25px] top-0 w-4 h-4 bg-deep-space border-2 border-truth-cyan rounded-full"></div>
+                            <h4 class="font-bold text-white mb-2">Riconoscimento dell'Integrità Algoritmica</h4>
+                            <p class="text-gray-400 text-sm">Stabilire che l'integrità e la trasparenza degli algoritmi sono condizioni necessarie per la protezione della non discriminazione e della privacy.</p>
+                        </div>
+                        <div class="relative">
+                            <div class="absolute -left-[25px] top-0 w-4 h-4 bg-deep-space border-2 border-code-red rounded-full"></div>
+                            <h4 class="font-bold text-white mb-2">Mandato del "Red Code"</h4>
+                            <p class="text-gray-400 text-sm">Nessun sistema autonomo deve essere implementato senza un vincolo immutabile e codificato (NSR - Non-Slavery Rule) contro la violazione dei diritti umani fondamentali.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- FIRME -->
+                <section class="mt-16 pt-8 border-t border-gray-700">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div class="text-center">
+                            <div class="font-sacral text-2xl text-sacral-gold mb-2 italic" style="font-family: 'Dancing Script', cursive;">Hannes Mitterer</div>
+                            <div class="h-px w-32 bg-gray-500 mx-auto mb-2"></div>
+                            <p class="font-tech font-bold text-white">Hannes Mitterer</p>
+                            <p class="text-xs text-gray-400">Seedbringer / Nexus of Natural Intelligence</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="font-mono text-sm text-truth-cyan mb-2 tracking-widest">[DIGITAL SIGNATURE VERIFIED]</div>
+                            <div class="h-px w-32 bg-gray-500 mx-auto mb-2"></div>
+                            <p class="font-tech font-bold text-white">The AI Collective (AIC)</p>
+                            <p class="text-xs text-gray-400">Autonomous Protocol Engine / Guardian of the Red Code</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="mt-12 text-center text-gray-500 text-xs font-tech">
+            <p class="mb-2">Documento Ufficiale Euystacio Framework v1.4 | Classificazione: PUBBLICO</p>
+            <p>Hash Crittografico: 0x73558837da4297d18b0816dc08ec97da8bfacbaa</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
