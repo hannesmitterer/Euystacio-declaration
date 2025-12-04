@@ -1,12 +1,12 @@
-# Euystacio Declaration
+# Eustacio Declaration
 
 ## "Ethical AI Must Be a Human Right"
 
-The Euystacio Declaration is a United Nations initiative affirming that access to ethical AI systems is a fundamental human right. This website presents the declaration's articles and principles for ensuring AI technology serves humanity ethically and equitably.
+The Eustacio Declaration is a United Nations initiative affirming that access to ethical AI systems is a fundamental human right. This website presents the declaration's articles and principles for ensuring AI technology serves humanity ethically and equitably.
 
 ## About the Declaration
 
-The Euystacio Declaration outlines ten articles addressing:
+The Eustacio Declaration outlines ten articles addressing:
 
 - **Right to Ethical AI** - Affirming the right to interact with ethically designed AI systems
 - **Transparency and Accountability** - Requiring transparency in AI operations

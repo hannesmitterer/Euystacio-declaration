@@ -70,7 +70,7 @@ header .tagline {
     border-bottom: 1px solid #e2e8f0;
 }
 
-.preamble h3 {
+.preamble h2 {
     font-size: 1.8rem;
     color: #1a365d;
     margin-bottom: 20px;
@@ -79,7 +79,7 @@ header .tagline {
 
 .preamble p {
     font-size: 1.1rem;
-    text-align: justify;
+    text-align: left;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -90,7 +90,7 @@ header .tagline {
     padding: 50px 0;
 }
 
-.articles h3 {
+.articles h2 {
     font-size: 1.8rem;
     color: #1a365d;
     margin-bottom: 40px;
@@ -106,7 +106,7 @@ header .tagline {
     border-left: 4px solid #c9a227;
 }
 
-.article h4 {
+.article h3 {
     font-size: 1.3rem;
     color: #2c5282;
     margin-bottom: 15px;
@@ -114,7 +114,7 @@ header .tagline {
 
 .article p {
     font-size: 1rem;
-    text-align: justify;
+    text-align: left;
 }
 
 /* Commitment Section */
@@ -125,7 +125,7 @@ header .tagline {
     text-align: center;
 }
 
-.commitment h3 {
+.commitment h2 {
     font-size: 1.8rem;
     margin-bottom: 25px;
     color: #c9a227;
@@ -175,7 +175,7 @@ footer p:last-child {
         padding: 20px;
     }
 
-    .article h4 {
+    .article h3 {
         font-size: 1.1rem;
     }
 }
@@ -189,9 +189,9 @@ footer p:last-child {
         font-size: 1.3rem;
     }
 
-    .preamble h3,
-    .articles h3,
-    .commitment h3 {
+    .preamble h2,
+    .articles h2,
+    .commitment h2 {
         font-size: 1.4rem;
     }
 }
